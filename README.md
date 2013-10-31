@@ -32,6 +32,7 @@ private static void createConnection()
         Class.forName("org.apache.derby.jdbc.ClientDriver").newInstance();
         
         //to Get a connection
+        
         conn = DriverManager.getConnection(dbURL); 
         
     }
