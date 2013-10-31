@@ -22,10 +22,16 @@ he code explains connecting to the derby server in the localhost 1527
 
 
 private static void createConnection()
+
 {
+
     try
+    
     {
+    
         Class.forName("org.apache.derby.jdbc.ClientDriver").newInstance();
+        
         //to Get a connection
         conn = DriverManager.getConnection(dbURL); 
+        
     }
