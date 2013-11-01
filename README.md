@@ -14,7 +14,7 @@ It enables the use of the Derby database JAR files as an installable component t
 Additionally the ij SQL scripting tool and the Apache Derby Network Server can be run from the Eclipse console.
 
 
-In program we have to write the below code and a method to create connection
+In program we have to write the below method to create connection
 
 private static String dbURL = "jdbc:derby://localhost:1527/myDB;create=true;user=me;password=mine";
 T
